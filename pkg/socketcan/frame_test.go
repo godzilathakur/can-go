@@ -4,7 +4,7 @@ import (
 	"testing"
 	"testing/quick"
 
-	"go.einride.tech/can"
+	"github.com/godzilathakur/can-go"
 	"gotest.tools/v3/assert"
 )
 

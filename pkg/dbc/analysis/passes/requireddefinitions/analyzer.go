@@ -3,8 +3,8 @@ package requireddefinitions
 import (
 	"reflect"
 
-	"go.einride.tech/can/pkg/dbc"
-	"go.einride.tech/can/pkg/dbc/analysis"
+	"github.com/godzilathakur/can-go/pkg/dbc"
+	"github.com/godzilathakur/can-go/pkg/dbc/analysis"
 )
 
 func Analyzer() *analysis.Analyzer {

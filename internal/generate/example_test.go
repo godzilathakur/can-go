@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"go.einride.tech/can"
-	"go.einride.tech/can/pkg/generated"
-	"go.einride.tech/can/pkg/socketcan"
-	examplecan "go.einride.tech/can/testdata/gen/go/example"
+	"github.com/godzilathakur/can-go"
+	"github.com/godzilathakur/can-go/pkg/generated"
+	"github.com/godzilathakur/can-go/pkg/socketcan"
+	examplecan "github.com/godzilathakur/can-go/testdata/gen/go/example"
 	"golang.org/x/sync/errgroup"
 	"gotest.tools/v3/assert"
 )

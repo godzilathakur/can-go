@@ -3,7 +3,7 @@ package socketcan
 import (
 	"encoding/binary"
 
-	"go.einride.tech/can"
+	"github.com/godzilathakur/can-go"
 )
 
 const (
